@@ -27,4 +27,3 @@ def blur(size=(3, 3)):
 def gaussian_blur(size=(3, 3)):
     kernel = np.random.normal(size=size, scale=1)
     return kernel
-
