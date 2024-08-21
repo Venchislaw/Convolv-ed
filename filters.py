@@ -17,6 +17,7 @@ def sharpen(size=(3, 3), central_value=1.4, surrounding_values=-0.05):
     kernel[kernel.shape[0] // 2, kernel.shape[1] // 2] = central_value
     return kernel
 
+
 def blur(size=(3, 3)):
     size = np.array(size)
     print(size.size)
